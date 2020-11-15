@@ -116,6 +116,13 @@ body {
   border: none;
   background-color: #f6f8ff;
   border-radius: 15px;
+  transition: all 1s;
+}
+
+.card-question:hover {
+  -webkit-box-shadow: 0px 10px 26px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 10px 26px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 10px 26px 0px rgba(0, 0, 0, 0.11);
 }
 
 .card-question-title {
